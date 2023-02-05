@@ -8,6 +8,12 @@
 // Solve without using division and analyze your solution’s 
 // time and space complexities.
 
+
+/*
+  Time complexity: O(N^2)
+  Space complexity: O(N)
+*/
+
 function arrayOfArrayProducts(arr) {
   let prevNumCollector = 1;
   let total = 1;
